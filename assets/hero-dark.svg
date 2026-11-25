@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070a10"/>
+      <stop offset="55%" stop-color="#0d1320"/>
+      <stop offset="100%" stop-color="#0b111b"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 165) rotate(90) scale(220 280)">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.24"/>
+      <stop offset="55%" stop-color="#2dd4bf" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#070a10" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowWarm" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 40) rotate(90) scale(180 280)">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#070a10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="35%" stop-color="#2dd4bf"/>
+      <stop offset="70%" stop-color="#e07a5f"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="330" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="22" fill="url(#grid)"/>
+  <rect width="1200" height="330" rx="22" fill="url(#glowCyan)"/>
+  <rect width="1200" height="330" rx="22" fill="url(#glowWarm)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="21" stroke="#94a3b8" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <!-- Top spectrum accent -->
+  <rect x="0" y="0" width="1200" height="4" rx="2" fill="url(#spectrum)"/>
+
+  <!-- Monogram + Availability Pill -->
+  <rect x="52" y="38" width="40" height="40" rx="11" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.5"/>
+  <text x="72" y="63" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700">LB</text>
+
+  <rect x="108" y="42" width="356" height="32" rx="16" fill="#121927" stroke="#94a3b8" stroke-opacity="0.22"/>
+  <circle cx="128" cy="58" r="4.5" fill="#10b981"/>
+  <text x="142" y="62" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500">Atuando na Umbler Brasil · Cachoeirinha, RS</text>
+
+  <!-- Main Typography -->
+  <text x="52" y="114" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" font-weight="600" letter-spacing="1.8">IA APLICADA · AUTOMAÇÕES · ENGENHARIA DE INTERFACES WEB</text>
+  <text x="52" y="168" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">Lucas Oliveira Barbosa</text>
+  <text x="52" y="206" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="400">Construo produtos digitais claros, agentes de IA e fluxos conectados.</text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(52, 236)">
+    <rect width="138" height="34" rx="10" fill="#121927" stroke="#2dd4bf" stroke-opacity="0.38"/>
+    <circle cx="18" cy="17" r="4" fill="#2dd4bf"/>
+    <text x="30" y="21.5" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600">Conta Clara</text>
+
+    <rect x="150" width="106" height="34" rx="10" fill="#121927" stroke="#e07a5f" stroke-opacity="0.45"/>
+    <circle cx="168" cy="17" r="4" fill="#e07a5f"/>
+    <text x="180" y="21.5" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600">Nexo</text>
+
+    <rect x="268" width="166" height="34" rx="10" fill="#121927" stroke="#818cf8" stroke-opacity="0.42"/>
+    <circle cx="286" cy="17" r="4" fill="#818cf8"/>
+    <text x="298" y="21.5" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600">Agentes &amp; n8n</text>
+
+    <rect x="446" width="218" height="34" rx="10" fill="#121927" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <circle cx="464" cy="17" r="4" fill="#38bdf8"/>
+    <text x="476" y="21.5" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600">Ciência da Computação</text>
+  </g>
+
+  <!-- Right Orbital Neural Core Illustration (echoing portfolio Three.js core) -->
+  <g transform="translate(965, 165)">
+    <circle r="118" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="1.5" stroke-dasharray="6 8"/>
+    <ellipse rx="112" ry="44" transform="rotate(-28)" stroke="#38bdf8" stroke-opacity="0.78" stroke-width="2.2"/>
+    <ellipse rx="104" ry="40" transform="rotate(34)" stroke="#2dd4bf" stroke-opacity="0.72" stroke-width="2"/>
+    <ellipse rx="92" ry="34" transform="rotate(82)" stroke="#e07a5f" stroke-opacity="0.55" stroke-width="1.6"/>
+    <!-- Wireframe Octahedron -->
+    <polygon points="0,-54 48,0 0,54 -48,0" fill="#0f172a" fill-opacity="0.88" stroke="#38bdf8" stroke-width="1.8"/>
+    <line x1="0" y1="-54" x2="18" y2="8" stroke="#2dd4bf" stroke-opacity="0.7" stroke-width="1.2"/>
+    <line x1="48" y1="0" x2="18" y2="8" stroke="#2dd4bf" stroke-opacity="0.7" stroke-width="1.2"/>
+    <line x1="0" y1="54" x2="18" y2="8" stroke="#2dd4bf" stroke-opacity="0.7" stroke-width="1.2"/>
+    <line x1="-48" y1="0" x2="18" y2="8" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.2"/>
+    <!-- Satellite Nodes -->
+    <circle cx="-98" cy="-48" r="5" fill="#38bdf8"/>
+    <circle cx="96" cy="-56" r="5.5" fill="#2dd4bf"/>
+    <circle cx="88" cy="68" r="4.5" fill="#e07a5f"/>
+    <circle cx="-78" cy="72" r="4.5" fill="#818cf8"/>
+    <circle cx="18" cy="8" r="4" fill="#f8fafc"/>
+  </g>
+</svg>

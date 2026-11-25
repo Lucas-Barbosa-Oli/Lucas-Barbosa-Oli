@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="250" viewBox="0 0 580 250" fill="none">
+  <defs>
+    <linearGradient id="ccBg" x1="0" y1="0" x2="580" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b111b"/>
+      <stop offset="100%" stop-color="#131f31"/>
+    </linearGradient>
+    <linearGradient id="ccAccent" x1="0" y1="0" x2="580" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="580" height="250" rx="20" fill="url(#ccBg)"/>
+  <rect x="1" y="1" width="578" height="248" rx="19" stroke="#2dd4bf" stroke-opacity="0.34" stroke-width="1.5"/>
+  <rect x="0" y="0" width="580" height="4" rx="2" fill="url(#ccAccent)"/>
+
+  <!-- Header -->
+  <text x="26" y="38" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">01 · DESTAQUE · FINANÇAS &amp; OPEN FINANCE</text>
+  <rect x="444" y="20" width="112" height="24" rx="12" fill="#0f2b2a" stroke="#2dd4bf" stroke-opacity="0.45"/>
+  <circle cx="458" cy="32" r="3.5" fill="#2dd4bf"/>
+  <text x="468" y="36" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600">No ar · Vercel</text>
+
+  <text x="26" y="76" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="28" font-weight="800" letter-spacing="-0.6">Conta Clara</text>
+  <text x="26" y="102" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5">Saldo hoje vs. projeção após compromissos, gráficos</text>
+  <text x="26" y="121" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5">interativos, escultura 3D e modo privacidade.</text>
+
+  <!-- Mini Cashflow Visual on Right -->
+  <rect x="366" y="64" width="190" height="122" rx="14" fill="#0d1522" stroke="#94a3b8" stroke-opacity="0.18"/>
+  <text x="380" y="84" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700">FLUXO · 6 PERÍODOS</text>
+  <g transform="translate(382, 100)">
+    <rect x="0" y="28" width="9" height="42" rx="3" fill="#7cb065"/>
+    <rect x="11" y="42" width="9" height="28" rx="3" fill="#de866a"/>
+    <rect x="30" y="22" width="9" height="48" rx="3" fill="#7cb065"/>
+    <rect x="41" y="38" width="9" height="32" rx="3" fill="#de866a"/>
+    <rect x="60" y="16" width="9" height="54" rx="3" fill="#7cb065"/>
+    <rect x="71" y="40" width="9" height="30" rx="3" fill="#de866a"/>
+    <rect x="90" y="24" width="9" height="46" rx="3" fill="#7cb065"/>
+    <rect x="101" y="34" width="9" height="36" rx="3" fill="#de866a"/>
+    <rect x="120" y="8" width="9" height="62" rx="3" fill="#2dd4bf"/>
+    <rect x="131" y="36" width="9" height="34" rx="3" fill="#de866a"/>
+  </g>
+
+  <!-- Stack Chips -->
+  <g transform="translate(26, 154)">
+    <rect width="70" height="24" rx="6" fill="#162234" stroke="#94a3b8" stroke-opacity="0.2"/>
+    <text x="35" y="16" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="10.5">Three.js</text>
+
+    <rect x="78" width="72" height="24" rx="6" fill="#162234" stroke="#94a3b8" stroke-opacity="0.2"/>
+    <text x="114" y="16" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="10.5">Chart.js</text>
+
+    <rect x="158" width="76" height="24" rx="6" fill="#162234" stroke="#94a3b8" stroke-opacity="0.2"/>
+    <text x="196" y="16" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="10.5">Supabase</text>
+
+    <rect x="242" width="78" height="24" rx="6" fill="#162234" stroke="#94a3b8" stroke-opacity="0.2"/>
+    <text x="281" y="16" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="10.5">22 testes</text>
+  </g>
+
+  <!-- CTA -->
+  <text x="26" y="220" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Abrir Conta Clara ao vivo ↗</text>
+  <text x="366" y="220" fill="#64748b" font-family="ui-monospace, monospace" font-size="11">conta-clara-tawny.vercel.app</text>
+</svg>
